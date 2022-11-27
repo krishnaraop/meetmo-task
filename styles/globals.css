@@ -1,25 +1,71 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-    background-color: #1F1F23;
-    color: #FFFFFF;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+html{
+
+
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #D2D3DF;
 }
 
 
+.main{
+    /* background-color: black;
+    color: azure; */
+    position: relative;
+width: 1920px;
+height: 1080px;
 
-* {
-  box-sizing: border-box;
+background: #1F1F23;
+border-radius: 25px;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: #FFFFFF;
+.siderbarMain{
+    position: absolute;
+    width: 100px;
+    height: 1080px;
+    left: 0px;
+    top: 0px;
+    
     background: #272C34;
-  }
+    border-radius: 15px 0px 0px 15px;
+}
+.childrenMainBar{
+    position: absolute;
+    width: 1820px;
+    height: 990px;
+    left: 100px;
+    top: 90px;
+    
+    background: #1F1F23;
+}
+.childrenInternalBar{
+    position: absolute;
+    width: 1780px;
+    height: 970px;
+    left: 120px;
+    top: 90px;
+    
+    background: #272C34;
+    border-radius: 15px;
+}
+.topNavBar{
+    position: absolute;
+width: 1820px;
+height: 90px;
+left: 100px;
+top: 0px;
+
+background: #1F1F23;
 }
