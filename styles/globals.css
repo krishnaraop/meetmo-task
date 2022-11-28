@@ -22,7 +22,6 @@ color: #D2D3DF;
     position: relative;
 width: 1920px;
 height: 1080px;
-
 background: #1F1F23;
 border-radius: 25px;
 }
@@ -52,18 +51,17 @@ border-radius: 25px;
     height: 970px;
     left: 120px;
     top: 90px;
-    
     background: #272C34;
     border-radius: 15px;
 }
 .topNavBar{
     position: absolute;
-width: 1820px;
+width: 1720px;
 height: 90px;
-left: 100px;
+left: 50px;
 top: 0px;
-
 background: #1F1F23;
+
 }
 
 .side{
@@ -75,15 +73,13 @@ background: #303640;
 border-radius: 15px 15px 15px 0px;
 }
 .sideImageBox{
-    position: absolute;
 width: 559px;
 height: 312px;
-background: url('https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
-border-radius: 6px;
+border-radius: 10px;
 color: aliceblue;
 background-size: cover;
-margin: 10px;
-margin-bottom: 47px;
+margin: 15px;
+
 }
 .sideImage{
     position: absolute;

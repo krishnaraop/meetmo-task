@@ -6,14 +6,14 @@ const FormComponent = () => {
     <div>
       <div className="flex flex-col">
         <div className="cardInSideBar">
-          <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-            <div class="shrink-0">
-              {/* <img class="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"> */}
+          <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+            <div className="shrink-0">
+              {/* <img className="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"> */}
               <GiLevelFour size={32} />
             </div>
             <div>
-              <div class="text-xl ">repellat voluptates corrupti</div>
-              <p class="text-slate-500">magnam veniam voluptatem</p>
+              <div className="text-xl ">repellat voluptates corrupti</div>
+              <p className="text-slate-500">magnam veniam voluptatem</p>
             </div>
           </div>
         </div>
@@ -25,12 +25,14 @@ const FormComponent = () => {
           placeholder="Dicta Amet Consequatur"
         />
         <input type="text" className="formInput" placeholder="Eas Et Rem" />
-        <input
-          type="text"
-          className="formInput"
-          placeholder="Sit Nihil Expedita"
-        />
-        <input type="text" className="formInput" placeholder="Rerum" />
+        <div className="flex flex-row">
+          <input
+            type="text"
+            className="formInput"
+            placeholder="Sit Nihil Expedita"
+          />
+          <input type="text" className="formInput" placeholder="Rerum" />
+        </div>
       </div>
       <div className="p-3 m-3">
         <label>sit nihil expedita</label>
