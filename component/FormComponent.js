@@ -5,18 +5,16 @@ const FormComponent = () => {
   return (
     <div>
       <div className="flex flex-col">
-        <div className="cardInSideBar">
-          <div className="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
-            <div className="shrink-0">
-              {/* <img className="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"> */}
-              <GiLevelFour size={32} />
-            </div>
-            <div>
-              <div className="text-xl ">repellat voluptates corrupti</div>
-              <p className="text-slate-500">magnam veniam voluptatem</p>
-            </div>
+        <div className="p-2 max-w-sm mx-auto bg-transparent rounded-xl shadow-lg flex items-center ">
+          {/* <img className="h-12 w-12" src="/img/logo.svg" alt="ChitChat Logo"> */}
+          <GiLevelFour size={32} />
+
+          <div>
+            <div className="text-xl ">repellat voluptates corrupti</div>
+            <p className="text-slate-500">magnam veniam voluptatem</p>
           </div>
         </div>
+
         <input type="text" placeholder="Node Name" className="formInput" />
 
         <input
@@ -34,11 +32,11 @@ const FormComponent = () => {
           <input type="text" className="formInput" placeholder="Rerum" />
         </div>
       </div>
-      <div className="p-3 m-3">
+      <div className="p-3">
         <label>sit nihil expedita</label>
         <input type="checkbox" id="custom-switch" />
       </div>
-      <div className="flex flex-col space-y-4 m-2 p-2">
+      <div className="flex flex-col p-1">
         <div className="flex flex-col p-2">
           <label>Earum dolorem</label>
           <input type="range" />

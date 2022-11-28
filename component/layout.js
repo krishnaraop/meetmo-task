@@ -1,19 +1,18 @@
-import Topbar from "./topbar";
+import TopBar from "./topbar";
 import Sidebar from "./sidebar";
 
 export default function Layout({ children }) {
   return (
     <div className="main">
       <div className="topNavBar">
-        <Topbar />
+        <TopBar />
       </div>
-
-      <div className="siderbarMain p-2">
+      {/* to display the sidebar menu icons */}
+      <div className="sideBarMain">
         <Sidebar />
       </div>
-      <div className="childrenBar">
-        <div> {children}</div>
-      </div>
+      {/* to display the index.js file content ot other pages */}
+      <div> {children}</div>
     </div>
   );
 }

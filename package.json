@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "watch": "tailwindcss -i ./styles/globals.css -o ./dist/output.css --watch",
     "lint": "next lint"
   },
   "dependencies": {

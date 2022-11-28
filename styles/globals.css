@@ -2,7 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-
 html{
 font-family: 'Montserrat';
 font-style: italic;
@@ -14,25 +13,20 @@ align-items: center;
 text-align: center;
 color: #D2D3DF;
 }
-
-
 .main{
-    /* background-color: black;
-    color: azure; */
-    position: relative;
+position: relative;
 width: 1920px;
 height: 1080px;
 background: #1F1F23;
 border-radius: 25px;
 }
 
-.siderbarMain{
+.sideBarMain{
     position: absolute;
     width: 100px;
     height: 1080px;
-    left: 0px;
-    top: 0px;
-    
+    display: flex;
+    justify-content: center;
     background: #272C34;
     border-radius: 15px 0px 0px 15px;
 }
@@ -42,7 +36,6 @@ border-radius: 25px;
     height: 990px;
     left: 100px;
     top: 90px;
-    
     background: #1F1F23;
 }
 .childrenInternalBar{
@@ -56,12 +49,12 @@ border-radius: 25px;
 }
 .topNavBar{
     position: absolute;
-width: 1720px;
+width: 1820px;
 height: 90px;
-left: 50px;
+left: 100px;
 top: 0px;
+border-radius: 25px;
 background: #1F1F23;
-
 }
 
 .side{
@@ -85,14 +78,11 @@ margin: 15px;
     position: absolute;
 width: 600px;
 height: 380px;
-
-
 background: #39404B;
 border-radius: 15px 15px 0px 0px;
 }
 
 .cardInSideBar{
-    /* position: absolute; */
 width: 559px;
 height: 80px;
 background: #39404B;
