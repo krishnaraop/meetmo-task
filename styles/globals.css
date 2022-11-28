@@ -111,3 +111,9 @@ margin-block: 5px;
 border-radius: 15px;
 margin-bottom: 10px;
 }
+.topNavBar{
+width: 1820px;
+height: 90px;
+padding: 20px;
+background: #1F1F23;
+}
