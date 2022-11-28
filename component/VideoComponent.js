@@ -15,7 +15,7 @@ const VideoComponent = () => {
         height={312}
         className="sideImageBox"
       />
-      <div className="flex flex-row">
+      <div className="flex flex-row gap-2">
         <div>
           <FcRefresh size={25} />{" "}
         </div>
