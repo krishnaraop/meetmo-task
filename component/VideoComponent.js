@@ -4,16 +4,33 @@ import { HiPlayPause } from "react-icons/hi";
 import Image from "next/image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faPlayPause, faPlay } from "@fortawesome/free-solid-svg-icons";
+import YouTube from "react-youtube";
 
 const VideoComponent = () => {
+  const opts = {
+    height: "430",
+    width: "740",
+    playerVars: {
+      autoplay: 1,
+    },
+  };
+  const onPause = (e) => {
+    console.log("paused", e);
+  };
   return (
     <div className="flex flex-col">
-      <Image
+      {/* <Image
         src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         alt="Picture of the author"
         width={600}
         height={312}
         className="rounded m-auto w-fit h-fit"
+      /> */}
+      <YouTube
+        videoId="u5D0jIbGUFc"
+        opts={opts}
+        onReady={onPause}
+        className="rounded m-auto"
       />
       <div className="flex flex-row gap-2 align-middle justify-center m-1 ">
         <div>
