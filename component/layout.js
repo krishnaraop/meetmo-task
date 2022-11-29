@@ -14,7 +14,7 @@ export default function Layout({ children }) {
       
       <div> {children}</div> */}
 
-      <div className="flex flex-row">
+      <div className="flex flex-row rounded">
         <div className="w-24">
           <Sidebar />
         </div>

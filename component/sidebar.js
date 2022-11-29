@@ -10,17 +10,17 @@ import { VscSettings } from "react-icons/vsc";
 const SideBar = () => {
   return (
     <div className="flex flex-col gap-3 py-4 h-screen bg-[#272C34] items-center justify-items-center ">
-      <GrGraphQl size={42} />
+      <GrGraphQl size={55} />
       <BsFolder2Open
         className=" bg-violet-500 hover:bg-blue-600 p-1 rounded "
-        size={42}
+        size={55}
       />
-      <IoCubeOutline size={42} />
-      <IoIosPeople size={42} />
-      <MdOutlineOndemandVideo size={42} />
-      <AiTwotoneLike size={42} />
-      <VscSettings style={{ transform: "rotate(90deg)" }} size={42} />
-      <RiUserFill size={42} />
+      <IoCubeOutline size={55} />
+      <IoIosPeople size={55} />
+      <MdOutlineOndemandVideo size={55} />
+      <AiTwotoneLike size={55} />
+      <VscSettings style={{ transform: "rotate(90deg)" }} size={55} />
+      <RiUserFill size={55} />
     </div>
   );
 };
