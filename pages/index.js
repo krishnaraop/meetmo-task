@@ -12,7 +12,7 @@ export default function Home() {
         <meta name="description" content="Developed by KrishnaRao" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="flex flex-row childrenInternalBar">
+      <div className="flex flex-row rounded">
         <div className="basis-2/3">
           <FlowComponent />
         </div>

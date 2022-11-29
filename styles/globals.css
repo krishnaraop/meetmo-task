@@ -8,36 +8,15 @@ font-style: italic;
 font-weight: 700;
 font-size: 22px;
 line-height: 22px;
-display: flex;
+/* display: flex; */
 align-items: center;
 text-align: center;
 color: #D2D3DF;
-}
-.main{
-position: relative;
-width: 1920px;
-height: 1080px;
 background: #1F1F23;
-border-radius: 25px;
 }
 
-.sideBarMain{
-    position: absolute;
-    width: 100px;
-    height: 1080px;
-    display: flex;
-    justify-content: center;
-    background: #272C34;
-    border-radius: 15px 0px 0px 15px;
-}
-.childrenMainBar{
-    position: absolute;
-    width: 1820px;
-    height: 990px;
-    left: 100px;
-    top: 90px;
-    background: #1F1F23;
-}
+
+
 .childrenInternalBar{
     position: absolute;
     width: 1780px;
@@ -53,17 +32,9 @@ width: 1820px;
 height: 90px;
 left: 100px;
 top: 0px;
+padding: 20px;
 border-radius: 25px;
 background: #1F1F23;
-}
-
-.side{
-    position: absolute;
-width: 600px;
-height: 970px;
-left: 1200px;
-background: #303640;
-border-radius: 15px 15px 15px 0px;
 }
 .sideImageBox{
 width: 559px;
@@ -71,35 +42,11 @@ height: 312px;
 border-radius: 10px;
 color: aliceblue;
 background-size: cover;
-margin: 15px;
-
-}
-.sideImage{
-    position: absolute;
-width: 600px;
-height: 380px;
-background: #39404B;
-border-radius: 15px 15px 0px 0px;
+margin:auto;
 }
 
-.cardInSideBar{
-width: 559px;
-height: 80px;
-background: #39404B;
-border-radius: 15px;
-padding: 20px;
-margin: auto;
-margin-block: 5px;
-
-}
 .formInput{
     background: #39404B;
 border-radius: 15px;
 margin-bottom: 10px;
-}
-.topNavBar{
-width: 1820px;
-height: 90px;
-padding: 20px;
-background: #1F1F23;
 }

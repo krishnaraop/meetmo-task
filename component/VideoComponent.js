@@ -11,13 +11,13 @@ const VideoComponent = () => {
       <Image
         src="https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         alt="Picture of the author"
-        width={559}
+        width={600}
         height={312}
-        className="sideImageBox"
+        className="rounded m-auto w-fit h-fit"
       />
-      <div className="flex flex-row gap-2">
+      <div className="flex flex-row gap-2 align-middle justify-center m-1 ">
         <div>
-          <FcRefresh size={25} />{" "}
+          <FcRefresh size={25} style={{ color: "white" }} />{" "}
         </div>
         <div>1x</div>
         <div>

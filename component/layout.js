@@ -3,16 +3,28 @@ import Sidebar from "./sidebar";
 
 export default function Layout({ children }) {
   return (
-    <div className="main">
-      <div className="topNavBar">
+    <div>
+      {/* <div className="topNavBar">
         <TopBar />
       </div>
-      {/* to display the sidebar menu icons */}
+     
       <div className="sideBarMain">
         <Sidebar />
       </div>
-      {/* to display the index.js file content ot other pages */}
-      <div> {children}</div>
+      
+      <div> {children}</div> */}
+
+      <div className="flex flex-row">
+        <div className="w-24">
+          <Sidebar />
+        </div>
+        <div className="w-full flex flex-col">
+          <div className="h-24">
+            <TopBar />
+          </div>
+          <div className="h-full">{children}</div>
+        </div>
+      </div>
     </div>
   );
 }

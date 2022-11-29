@@ -9,9 +9,12 @@ import { VscSettings } from "react-icons/vsc";
 
 const SideBar = () => {
   return (
-    <div className="flex flex-col p-s2 gap-3">
-      <GrGraphQl  size={42} />
-      <BsFolder2Open size={42} />
+    <div className="flex flex-col gap-3 py-4 h-screen bg-[#272C34] items-center justify-items-center ">
+      <GrGraphQl size={42} />
+      <BsFolder2Open
+        className=" bg-violet-500 hover:bg-blue-600 p-1 rounded "
+        size={42}
+      />
       <IoCubeOutline size={42} />
       <IoIosPeople size={42} />
       <MdOutlineOndemandVideo size={42} />
